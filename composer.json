@@ -1,0 +1,17 @@
+{
+    "name": "luso/lusoapi",
+    "description": "API para o projeto Luso",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.4",
+        "william-costa/dot-env": "^0.1.0",
+        "kreait/firebase-php": "8.2",
+        "phpmailer/phpmailer": "^6.5"
+    },
+"autoload": {
+        "psr-4": {
+            "Classes\\": "classes/"
+        }
+    }
+}
